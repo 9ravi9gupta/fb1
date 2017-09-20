@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+
+<!--Your css file-->    
+<link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    
+    <body>
+        <div class=container>
+        <header>
+        <nav class="navbar navbar-default" id="header">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" id="white-text" href="#">Friendly</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+       
+    <!--bootstrap code for search box-->    
+    <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+           <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true" ></span></button>
+        </div>
+      </form>
+        
+        <ul class="nav navbar-nav navbar-right">
+    <li><a href="#" class="white">Ravi</a></li>
+    <li><a href="#" class="white"><span class="glyphicon glyphicon-home"></span></a></li>
+    <li><a href="#" class="white"><span class="glyphicon glyphicon-user"></span></a></li>
+    <li><a href="#" class="white"><span class="glyphicon glyphicon-briefcase"></span></a></li>
+    <li><a href="#" class="white"><span class="glyphicon glyphicon-bell"></span></a></li>
+    <!--creating dropdown menu by using class="Dropdown" and "dropdown-menu-->        
+    <li class="dropdown">
+          <a href="#" class="dropdown-toggle white" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">help <span class="caret"></span></a>
+        
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        </header>
+        
+        <div class="container" id=wrapper>
+         <div class="row">
+             
+        <!--used for make responsive page-->  <div class="hidden-xs col-sm-4 col-md-3">
+           <div id="menu">
+               
+            <!--nav,nav-pills,nav-stacked class help to adjust all the fonts,size,activeness,stacking of listed items-->   
+    <ul class="nav nav-pills nav-stacked">
+  <li role="presentation" class="active"><a href="#">Home</a></li>
+  <li role="presentation"><a href="#">Profile</a></li>
+  <li role="presentation"><a href="#">Messages<span class="badge" style="background:whitesmoke;color: red">14</span></a></li>
+</ul>
+               <ul class="nav nav-pills nav-stacked">
+                   <p class="menu-para">SHORTCUT</p>
+                   <hr style="margin:0;margin-top: -5px;">
+          <li role="presentation"><a href="#">RAVI GUPTA</a></li>
+          <li role="presentation"><a href="#">News Feed</a></li>
+          <li role="presentation"><a href="#">Messenger</a></li>
+        </ul>
+               <ul class="nav nav-pills nav-stacked">
+                   <p class="menu-para">Explore</p>
+                   <hr style="margin:0;margin-top: -5px;">
+          <li role="presentation"><a href="#">
+              
+              Events<span class="badge" style="background:whitesmoke;color: red">6</span></a></li>
+          <li role="presentation"><a href="#">Friend lists</a></li>
+          <li role="presentation"><a href="#">Groups<span class="badge" style="background:whitesmoke;color: red">8</span></a></li>
+        </ul>
+            </div>
+         </div>
+             
+        <div class="col-xs-12 col-sm-8 col-md-6 "><div id="main">
+            
+<div class="panel panel-default" >
+         <div class="panel-heading" >
+    <h3 class="panel-title"><a href="#" >Ravi Gupta  Shared Some Memory</a></h3>
+             <p>20 mins</p>
+         </div>
+         <div class="panel-body" >
+             <div>
+               <blockquote id="panel-body-first">
+  <p>Journey Of my life during First year in Jecrc College with brothers,friends and with beautiful Moments..so much memorable..
+</p>
+    </blockquote>
+             </div>
+             <div>
+                <!-- video element is special feature html5 --> 
+             <video style="width:95%; height:80%; margin-left:10px;" controls>
+             <source src="videos/XiaoYing_Video_1492851770590.mp4"></video>
+             </div>
+             <!--span tag is used to make all the content in same line-->
+      <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+    </div>
+          </div>
+        <div class="panel-footer">
+        
+            <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="image-placeholderr">
+    </a>
+  </div>
+  <div class="media-body">
+      <p class="comment"><span><a href="#">Sahil: </a></span> Wow, that's really insightful!</p> 
+      <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>10 mins</small>
+      <input placeholder="Write a comment..." style="width:100%;margin-top:10px;">
+       <div class="media">
+      <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="image-placeholderr">
+    </a>
+  </div>
+           <div class="media-body">
+           <p class="comment"><span><a href="#">Ravi:</a></span>
+               yaar woo bhi kiya din tha</p>
+                   <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>9 mins</small>
+               <input placeholder="Write a comment..." style="width:100%;margin-top:10px;">
+           </div>
+      </div>
+     
+  </div>
+</div>  
+               </div>       
+               
+</div>
+            
+            <div class="panel panel-default" >
+         <div class="panel-heading" >
+    <h3 class="panel-title"><a href="#">Ravi Gupta  Shared Some Text</a></h3>
+             <p>10 hrs</p>
+         </div>
+         <div class="panel-body" >
+     <div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/kJQP7kiw5Fk" frameborder="0" allowfullscreen></iframe>
+</div>
+             
+      <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+    </div>
+          </div>
+        <div class="panel-footer">
+            <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="image-placeholderr">
+    </a>
+  </div>
+  <div class="media-body">
+      <p class="comment"><span><a href="#">Sumer: </a></span> YoYo bro despacito</p> 
+      <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>9 hrs</small>
+      <input placeholder="Write a comment..." style="width:100%;margin-top:10px;">
+       <div class="media">
+      <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="image-placeholderr">
+    </a>
+  </div>
+           <div class="media-body">
+           <p class="comment"><span><a href="#">Ravi:</a></span>
+               yo bro desssspaciito</p>
+                   <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>8:50 hrs</small>
+               <input placeholder="Write a comment..." style="width:100%;margin-top:10px;">
+           </div>
+      </div>
+     
+  </div>
+</div>  
+               </div>       
+               
+</div>
+            
+            <div class="panel panel-default">
+         <div class="panel-heading" >
+    <h3 class="panel-title"><a href="#">Ravi Gupta  Shared Some Text</a></h3>
+             <p>Yestarday 1:00 pm</p>
+         </div>
+         <div class="panel-body" style="background: white;">
+             <div class="image-post">
+        <img src="http://www.folomojo.com/wp-content/uploads/2015/02/16/104.jpg" class="img-responsive" alt="Responsive image">
+    </div>
+             <div><h4 class="text-post">Searching for a new laptop online is basically forcing your current computer to dig its own grave. </h4></div>
+      <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+        <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Comment</span>
+    </div>
+          </div>
+        <div class="panel-footer">
+            <div class="media">
+  <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="image-placeholderr">
+    </a>
+  </div>
+  <div class="media-body">
+      <p class="comment"><span><a href="#">Sahil: </a></span> Wow, that's really insightful!</p> 
+      <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>Yestarday 1:30 pm</small>
+      <input placeholder="Write a comment..." style="width:100%;margin-top:10px;">
+       <div class="media">
+      <div class="media-left">
+    <a href="#">
+      <img class="media-object" src="http://via.placeholder.com/32x32" alt="image-placeholderr">
+    </a>
+  </div>
+           <div class="media-body">
+           <p class="comment"><span><a href="#">Ravi:</a></span>
+               Thanks Chutiya</p>
+                   <small><span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span>Yestarday 2:00 pm</small>
+               <input placeholder="Write a comment..." style="width:100%;margin-top:10px;">
+           </div>
+      </div>
+     
+  </div>
+</div>  
+            
+               </div>       
+               
+</div>
+            </div>
+             </div>
+                    
+             <div class="hidden-xs col-sm-12 col-md-3 "><div id="sidebar">
+                
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-sort-by-attributes-alt" aria-hidden="true"></span></a></li>
+        <li role="presentation"><a href="#politics" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span></a></li>
+        <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-equalizer" aria-hidden="true"></span></a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="top">
+        <div class="list-group sidebar-news">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">'Don't need Lecture On Rohingyas</h4>
+      <p><span><a href="#" style="color:red;">Press India</a></span> |Monday August 28,2017,New Delhi</p>
+    <p class="list-group-item-text">Union minister Kiren Rijiju today slammed human rights groups for criticising the Centre's move to deport Rohingya refugees, saying India has given shelter to maximum number of migrants, more than any other nation, and advised them not to "lecture"</p>
+  </a>
+            </div>
+            
+            <div class="list-group sidebar-news">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">United Nations General Assembly President-Elect Meets PM Narendra Modi,terror Discussed</h4>
+      <p><span><a href="#" style="color:red;">Press India</a></span> |Monday August 28,2017,New Delhi</p>
+    <p class="list-group-item-text">The need for stronger United Nations (UN) action against terrorism and the reform of the world body were among the issues discussed when President-elect of the UN General Assembly (UNGA) Miroslav Lajcak met Prime Minister Shri Narendra Modi here today</p>
+  </a>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="politics">Narendra Modi</div>
+        <div role="tabpanel" class="tab-pane" id="sports">Football</div>
+    </div>
+</div>
+             </div>
+                </div>
+        </div>  
+        
+  <footer style="background: white;">
+    <div class="footer-design">
+     <ul class="nav nav-pills pull-right">
+         <li role="presentation " class="footer-li" class="badges"><a href="# ">About Us</a></li>
+         <li role="presentation " class="footer-li"><a href="# ">Home</a></li>
+        <li role=" presentation " class="footer-li"><a href="# ">Privacy</a></li>
+        <li role="presentation " class="footer-li"><a href="# ">Advertising</a></li>
+        <li role="presentation " class="footer-li"><a href="# ">Cookies</a></li>
+            <li role="presentation " class="footer-li"><a href="# ">Ad Choices</a></li>
+     </ul>
+    </div> 
+   </footer>
+        </div>         
+ </body>
+</html>
